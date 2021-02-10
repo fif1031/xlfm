@@ -8,7 +8,7 @@ class MovieLens20MDataset(torch.utils.data.Dataset):
     MovieLens 20M Dataset
 
     Data preparation
-        treat samples with a rating less than 3 as negative samples
+        treat samples with a rating  less than 3 as negative samples
 
     :param dataset_path: MovieLens dataset path
 
